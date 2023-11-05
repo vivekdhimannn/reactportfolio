@@ -1,18 +1,28 @@
 import img1 from "../media/dygres.png"
 import img5 from "../media/pr2.png"
-import img2 from "../media/portfolio.jpg"
+import img2 from "../media/portfolio.png"
 import img3 from "../media/tarbook.png"
 import img4 from "../media/totel.png"
 import img6 from "../media/uiux.jpg"
+import img7 from "../media/cartedo.png"
+import img8 from "../media/wegroup.png"
 
 const carddata = [
   {
-    imgsource: img5,
-    title: "Quill Audits",
-    text: "I have a made a webpage as an assignment for the company Quill Audits which is made from scratch in html and css only as I was given ann adobe xd design to impliment.",
-    view: img5,
-    source : "https://assignment.vivekdhimann.repl.co/",
+    imgsource: img8,
+    title: "WeGroup",
+    text: "This is a webapp and mobile SaaS based app, I have contributed in the making of this app as a front end developer.",
+    view: img8,
+    source : "https://wegroup4.com/home"
   },
+  {
+    imgsource: img7,
+    title: "Cartedo",
+    text: "This is a SaaS based webapp which is live, I contributed as a front end developer in the making of this app.",
+    view: img7,
+    source : "https://www.cartedo.com/"
+  },
+  
   {
     imgsource: img1,
     title: "Dygres",
@@ -35,6 +45,13 @@ const carddata = [
     source : "https://tarbook.vivekdhimann.repl.co",
   },
   {
+    imgsource: img5,
+    title: "Quill Audits",
+    text: "I have a made a webpage as an assignment for the company Quill Audits which is made from scratch in html and css only as I was given ann adobe xd design to impliment.",
+    view: img5,
+    source : "https://assignment.vivekdhimann.repl.co/",
+  },
+  {
     imgsource: img4,
     title: "Hotel project",
     text: "This is a basic template project in next js which is capable of api integration and SEO, Its made in next js 13 and is totally responsive to all screens.",
@@ -47,6 +64,7 @@ const carddata = [
     text: "This is professional working site I made from scratch for a client. I implemented the whole design in pure html/css and js.",
     view: img6,
     source : "https://uiuxagency.vivekdhimann.repl.co/"
-  }
+  },
+  
 ];
 export default carddata;
