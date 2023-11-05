@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-family: 'Sono', sans-serif;
+scrollbar-width: thin;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+::-webkit-scrollbar-thumb{
+  color: dimgray;
+}
+
+body{
+  background-color: black;
+}
+h1, h2, h3, h4, h5, p, a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.btn-colored{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  background: rgb(219, 192, 18);
+  border: 1px solid rgb(10, 10, 10);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+
+}
+.btn-transparent{
+  background: transparent;
+  color: #fff;
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: 1px solid rgb(235, 233, 233);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.btn-colored:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.btn-transparent:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+ul{
+  list-style-type: none;
+}
