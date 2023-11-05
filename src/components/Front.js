@@ -1,7 +1,7 @@
 import React from 'react';
 import Intro from '../media/bg1.jpg';
 import { Link } from 'react-router-dom';
-import myPDF from '../media/Resumefeb23.pdf'
+import myPDF from '../media/ResOct23.pdf'
 
 const Front = ()=> {
   return (
