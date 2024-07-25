@@ -61,13 +61,6 @@ const carddata = [
     source: "https://tarbook.vivekdhimann.repl.co",
   },
   {
-    imgsource: img5,
-    title: "Quill Audits",
-    text: "I have a made a webpage as an assignment for the company Quill Audits which is made from scratch in html and css only as I was given ann adobe xd design to impliment.",
-    view: img5,
-    source: "https://assignment.vivekdhimann.repl.co/",
-  },
-  {
     imgsource: img4,
     title: "Hotel project",
     text: "This is a basic template project in next js which is capable of api integration and SEO, Its made in next js 13 and is totally responsive to all screens.",
