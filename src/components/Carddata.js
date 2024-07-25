@@ -1,5 +1,4 @@
 import img1 from "../media/dygres.png"
-import img5 from "../media/pr2.png"
 import img2 from "../media/portfolio.png"
 import img3 from "../media/tarbook.png"
 import img4 from "../media/totel.png"
