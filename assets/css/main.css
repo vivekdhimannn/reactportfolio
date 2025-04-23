@@ -921,6 +921,7 @@ section,
 .about .personal-info .info-item .value {
   font-weight: 600;
   color: var(--heading-color);
+  word-break: break-all;
 }
 
 .about .signature {
